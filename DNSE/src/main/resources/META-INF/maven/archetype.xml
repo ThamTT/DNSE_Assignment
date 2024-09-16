@@ -1,0 +1,9 @@
+<archetype>
+  <id>DNSE</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/testRunner/java/AppTest.java</source>
+  </testSources>
+</archetype>

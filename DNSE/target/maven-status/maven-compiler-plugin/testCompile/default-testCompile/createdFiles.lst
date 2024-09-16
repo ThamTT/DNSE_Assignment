@@ -1,0 +1,5 @@
+stepdefinitions\StepSearch.class
+testRunner\RunnerSearch.class
+elements\ElementSearchPage.class
+core\CoreWeb.class
+pages\SearchPage.class

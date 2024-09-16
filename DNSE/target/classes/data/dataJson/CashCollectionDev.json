@@ -1,0 +1,189 @@
+{
+  "Store": {
+    "VPB": "ca014839-1f5f-466e-8402-179487f9ae45",
+    "HDB": "3387ec1c-2a0d-4c4e-98c4-eedbae96e5a6"
+  },
+
+  "TaoDon": {
+    "cashCollectionV2": {
+      "amount": "$money",
+      "isRequireEnterStatement": false,
+      "timeRequestFrom": "$datePlus",
+      "timeRequestTo": "$datenow",
+      "storeId": "ca014839-1f5f-466e-8402-179487f9ae45",
+      "storeAddress": "so 3, Lang ha",
+      "isReportInformation": false,
+      "grabPhone": "209193019029",
+      "staffName": "Hoàng Anh",
+      "cashDetailDenomination": [],
+      "cashCollectionFunds": [
+        {
+          "name": "$Nguontien",
+          "money": "$money",
+          "description": "",
+          "idRow": null
+        }
+      ]
+    }
+  },
+  "NhanDon": {
+    "GDVSolo": {
+      "collectorId": "514a9ce5-3316-385e-7bd0-3a052b79b267",
+      "cashCollectionId": "ba6e3c1e-a6bd-56d7-3d52-3a0d80a93854"
+    },
+    "GDVHMC": {
+      "collectorId": "cdb0edba-0104-df10-2d20-3a0aa54d8f9b",
+      "cashCollectionId": "ba6e3c1e-a6bd-56d7-3d52-3a0d80a93854"
+    }
+  },
+  "HoanThanhDon": {
+    "body": {
+    }
+  },
+  "StartCashCollection": {
+    "body": {
+    }
+  },
+  "Payment": {
+    "vpb": {
+      "masterAccountNumber": "3425647893-5435",
+      "virtualAccountNumber": "234152678921",
+      "virtualName": "2456789012",
+      "amount": 5000000,
+      "transactionDate": "2023-08-25 17:45:00",
+      "bookingDate": "2023-08-25",
+      "transactionId": "01231216335",
+      "remark": "NHAN TU 8900169826666 TRACE 587861 ND NAP CD148 FT10071234"
+    },
+
+    "hdb": {
+      "request": {
+        "requestId": "082163627521",
+        "requestTime": "2023-11-22 11:00:00",
+        "signature": "1e7fd564bae65bc3aa45d06a73a35d837e87b0ae2549dfe5c4f932c46e503dde"
+      },
+      "data": {
+        "acctNo": "002704070004728",
+        "bankTransactionId": "253242356543711123153318",
+        "transactionDateTime": "2024-01-10T10:00:00Z",
+        "transactionAmount": 7000,
+        "narrative": "INF_GCHHB10",
+        "currency": "VND",
+        "balanceAfterOperation": "50000",
+        "transactionDetail": "C"
+      }
+    }
+  },
+  "ValidateRequestLimit": {
+    "body": {
+      "limitType": "PUBLIC",
+      "orders": "ID don"
+    }
+  },
+  "createRequestLimit": {
+    "body": {
+      "limitType": "PUBLIC",
+      "orders":[]
+    }
+  },
+  "updatedRequestLimit": {
+    "body": {
+      "requestId": 492,
+      "isApprove": true,
+      "note": "Accept"
+    }
+  },
+  "EditCashCollection": {
+    "body": {
+      "amount": "$tien",
+      "timeRequestFrom": "$timeFrom",
+      "timeRequestTo": "$timeEnd",
+      "storeId": "ca014839-1f5f-466e-8402-179487f9ae45",
+      "cashCollectionFunds": [
+        {
+          "id": "14d1247f-75ea-419f-9d00-6380887380d9",
+          "money": "$tien"
+        }
+      ]
+    }
+  },
+  "DeleteCashCollection": {
+    "body": {
+      "reason": "DRIVER_LATE"
+    }
+  },
+
+  "AccountPartner": {
+    "VPB.Merchant": {
+      "username": "automerchantVPB",
+      "password": "Abc@123",
+      "appCode": "INF-PARTNER"
+    },
+
+    "VPB.Store": {
+      "username": "autostore",
+      "password": "Abc@123",
+      "appCode": "INF-PARTNER"
+    },
+
+    "VPB.Staff": {
+      "username": "autostaff",
+      "password": "Abc@123",
+      "appCode": "INF-PARTNER"
+    },
+
+    "HDB.Merchant": {
+      "username": "user_merchant",
+      "password": "Abc@123",
+      "appCode": "INF-PARTNER"
+    }
+  },
+
+  "GDVSolo": {
+    "oldId": "514a9ce5-3316-385e-7bd0-3a052b79b267",
+    "code" : "NB0346"
+  },
+  "Group": {
+    "accountId": "31e6f5a0-77f2-4912-85dc-5afa540b7063"
+  },
+  "GDVHMC": {
+    "accountId": "cdb0edba-0104-df10-2d20-3a0aa54d8f9b",
+    "code" : "NH0491"
+  },
+
+  "validAccount" : {
+    "OPS20": {
+      "username": "0999999001",
+      "password": "Abc@123",
+      "appCode": "INF-APP"
+    },
+
+    "SoloGDV": {
+      "username": "0231236524",
+      "password": "Abc@123",
+      "appCode": "INF-APP"
+    },
+
+    "GDVHMC": {
+      "username": "0987789789",
+      "password": "Abc@123",
+      "appCode": "INF-APP"
+    },
+
+    "COO": {
+      "username": "0999999002",
+      "password": "Abc@123",
+      "appCode": "INF-APP"
+    },
+    "CEO": {
+      "username": "0999999003",
+      "password": "Abc@123",
+      "appCode": "INF-APP"
+    },
+    "MD": {
+      "username": "0999999004",
+      "password": "Abc@123",
+      "appCode": "INF-APP"
+    }
+  }
+}

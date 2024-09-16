@@ -1,0 +1,209 @@
+{
+  "Store": {
+    "VPB": "3b7bb9e7-c394-408b-afd6-c38b6df99242",
+    "HDB": "913cd6ef-d7cd-44ec-be9e-1d5bba9abb4e"
+  },
+
+  "TaoDon": {
+    "cashCollectionV2": {
+      "amount": "$money",
+      "isRequireEnterStatement": false,
+      "timeRequestFrom": "$datePlus",
+      "timeRequestTo": "$datenow",
+      "storeId": "3b7bb9e7-c394-408b-afd6-c38b6df99242",
+      "storeAddress": "so 3, Lang ha",
+      "isReportInformation": false,
+      "grabPhone": "209193019029",
+      "staffName": "Hoàng Anh",
+      "cashDetailDenomination": [],
+      "cashCollectionFunds": [
+        {
+          "name": "$Nguontien",
+          "money": "$money",
+          "description": "",
+          "idRow": null
+        }
+      ]
+    }
+  },
+
+  "NhanDon": {
+    "GDVSolo": {
+      "collectorId": "5a43186f-3d4b-4ba0-956a-48e447874143",
+      "cashCollectionId": "ba6e3c1e-a6bd-56d7-3d52-3a0d80a93854"
+    },
+    "GDVHMC": {
+      "collectorId": "1f843d7c-c5e4-426b-b19b-d17d6031e9cc",
+      "cashCollectionId": "ba6e3c1e-a6bd-56d7-3d52-3a0d80a93854"
+    }
+  },
+
+  "HoanThanhDon": {
+    "body": {
+    }
+  },
+
+  "StartCashCollection": {
+    "body": {
+    }
+  },
+
+  "Payment": {
+    "vpb": {
+      "masterAccountNumber": "3425647893-5435",
+      "virtualAccountNumber": "234152678921",
+      "virtualName": "2456789012",
+      "amount": 5000000,
+      "transactionDate": "2023-08-25 17:45:00",
+      "bookingDate": "2023-08-25",
+      "transactionId": "01231216335",
+      "remark": "NHAN TU 8900169826666 TRACE 587861 ND NAP CD148 FT10071234"
+    },
+
+    "hdb": {
+      "request": {
+        "requestId": "082163627521",
+        "requestTime": "2023-11-22 11:00:00",
+        "signature": "1e7fd564bae65bc3aa45d06a73a35d837e87b0ae2549dfe5c4f932c46e503dde"
+      },
+      "data": {
+        "acctNo": "002704070004728",
+        "bankTransactionId": "253242356543711123153318",
+        "transactionDateTime": "2024-01-10T10:00:00Z",
+        "transactionAmount": 7000,
+        "narrative": "INF_GCHHB10",
+        "currency": "VND",
+        "balanceAfterOperation": "50000",
+        "transactionDetail": "C"
+      }
+    }
+  },
+
+  "ValidateRequestLimit": {
+    "body": {
+      "limitType": "PUBLIC",
+      "orders": "ID don"
+    }
+  },
+
+  "createRequestLimit": {
+    "body": {
+      "limitType": "PUBLIC",
+      "orders":[]
+    }
+  },
+
+  "updatedRequestLimit": {
+    "body": {
+      "requestId": 492,
+      "isApprove": true,
+      "note": "Accept"
+    }
+  },
+
+  "EditCashCollection": {
+    "body": {
+      "amount": "$tien",
+      "timeRequestFrom": "$timeFrom",
+      "timeRequestTo": "$timeEnd",
+      "storeId": "3b7bb9e7-c394-408b-afd6-c38b6df99242",
+      "storeAddress": "Số 3",
+      "isReportInformation": true,
+      "grabPhone": "098732947",
+      "grabIdentity": "214324324",
+      "grabIssueDate": "2023-01-10",
+      "grabIssuePlace": "5c0b0bb5-1f8c-c443-e760-39fc66fc73f1",
+      "staffId": "48b77220-8448-4f47-a2d3-67326513ff71",
+      "cashCollectionFunds": [
+        {
+          "id": "8d8e5e64-5db1-413f-b9d7-e04f24f594c5",
+          "money": "$tien"
+        }
+      ]
+    }
+  },
+
+  "DeleteCashCollection": {
+    "body": {
+      "reason": "DRIVER_LATE"
+    }
+  },
+
+  "AccountPartner": {
+    "VPB.Merchant": {
+      "username": "0999555666",
+      "password": "Abc@123",
+      "appCode": "INF-PARTNER"
+    },
+
+    "VPB.Store": {
+      "username": "0999555777",
+      "password": "Abc@123",
+      "appCode": "INF-PARTNER"
+    },
+
+    "VPB.Staff": {
+      "username": "AD12",
+      "password": "Abc@123",
+      "appCode": "INF-PARTNER"
+    },
+
+    "HDB.Merchant": {
+      "username": "0999876876",
+      "password": "Abc@123",
+      "appCode": "INF-PARTNER"
+    }
+  },
+
+  "GDVSolo": {
+    "oldId": "5a43186f-3d4b-4ba0-956a-48e447874143",
+    "code" : "GCHHB10"
+  },
+
+  "Group": {
+    "accountId": "92745ff8-ca4f-4b85-87af-0dad0ca39854"
+  },
+
+  "GDVHMC": {
+    "accountId": "1f843d7c-c5e4-426b-b19b-d17d6031e9cc",
+    "code" : "NAN9"
+  },
+
+  "validAccount" : {
+    "OPS20": {
+      "username": "1122334455",
+      "password": "Abc@123",
+      "appCode": "INF-APP"
+    },
+
+    "SoloGDV": {
+      "username": "0999111222",
+      "password": "Abc@123",
+      "appCode": "INF-APP"
+    },
+
+    "GDVHMC": {
+      "username": "0112221222",
+      "password": "Abc@123",
+      "appCode": "INF-APP"
+    },
+
+    "COO": {
+      "username": "0999999002",
+      "password": "Abc@123",
+      "appCode": "INF-APP"
+    },
+
+    "CEO": {
+      "username": "0999999003",
+      "password": "Abc@123",
+      "appCode": "INF-APP"
+    },
+
+    "MD": {
+      "username": "0999999004",
+      "password": "Abc@123",
+      "appCode": "INF-APP"
+    }
+  }
+}
